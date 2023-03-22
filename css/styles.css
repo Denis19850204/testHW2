@@ -96,6 +96,19 @@ ul {
   letter-spacing: 0.06em;
 }
 
+.hero-btn {
+  background-color: var(--brand-color);
+  color: var(--white-color);
+
+  cursor: pointer;
+
+  font-family: inherit;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 1.88;
+  letter-spacing: 0.06em;
+}
+
 /* Секція переваги */
 
 .benefits-subtitle {
@@ -174,4 +187,41 @@ ul {
 
 .footer-link {
   color: #ffffff99;
+}
+
+/* ------------------------------------------------------------ */
+/* Портфоліо */
+
+.project-btn {
+  background-color: #f5f4fa;
+  color: var(--second-color);
+
+  cursor: pointer;
+
+  font-family: inherit;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.63;
+  letter-spacing: 0.03em;
+}
+
+.project-btn:hover,
+.project-btn:focus {
+  background-color: var(--brand-color);
+  color: var(--white-color);
+}
+
+.project-subtitle {
+  font-size: 18px;
+  line-height: 2;
+  letter-spacing: 0.06em;
+}
+
+.project-text {
+  color: var(--main-color);
+
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.88;
+  letter-spacing: 0.03em;
 }
