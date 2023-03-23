@@ -109,6 +109,11 @@ ul {
   letter-spacing: 0.06em;
 }
 
+.hero-btn:hover,
+.hero-btn:focus{
+  background-color: #188CE8;
+}
+
 /* Секція переваги */
 
 .benefits-subtitle {
@@ -187,6 +192,11 @@ ul {
 
 .footer-link {
   color: #ffffff99;
+}
+
+.footer-link:hover,
+.footer-link:focus{
+  color: var(--brand-color);
 }
 
 /* ------------------------------------------------------------ */
